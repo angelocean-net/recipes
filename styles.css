@@ -1,0 +1,29 @@
+* {
+	font-family: "Trebuchet", sans-serif;
+	background-color: #fffbea;
+	color: #f7ad2d;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Georgia", serif;
+	font-weight: 600;
+	color: #3f301a;
+}
+
+h1 {
+	text-align: center;
+}
+/*
+h3 {
+	background-color: #ffe9a2;
+	color: #ffffff;
+}
+*/
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400;
+}
