@@ -7,18 +7,39 @@
 		<link rel="stylesheet" href="./styles.css">
 		<title>Recipes</title>
 		<style>
-			ul {
+			body {
+				margin: 0px;
+			}
+			
+			h1 {
+				background-color: #3f301a;
+				color: #fffbea;
+				margin: 0px;
+				padding: 10px;
+			}
+			.recipe-list {
+				width: 300px;
+				margin: 8px auto;
+				padding: 8px;
 				text-align: center;
+			}
+
+			.recipe {
+				display: block;
+				background-color: #f7ad2d;
+				color: #fffbea;
+				margin: 8px;
+				padding: 10px;
 			}
 		</style>
 	</head>
 
 	<body>
 		<h1>Recipes</h1>
-		<ul>
-			<li><a href="./recipe-pages/buttermilk-biscuits.html">Buttermilk Biscuits</a></li>
-			<li><a href="./recipe-pages/chicken-pot-pie.html">Chicken Pot Pie</a></li>
-			<li><a href="./recipe-pages/chicken-alfredo.html">Chicken Alfredo</li>
-		</ul>
+		<div class="recipe-list">
+			<a class="recipe" href="./recipe-pages/buttermilk-biscuits.html">Buttermilk Biscuits</a>
+			<a class="recipe" href="./recipe-pages/chicken-pot-pie.html">Chicken Pot Pie</a>
+			<a class="recipe" href="./recipe-pages/chicken-alfredo.html">Chicken Alfredo</a>
+		</div>
 	</body>
 </html>
